@@ -23,3 +23,5 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 ### Reversing vowels in a string (17-07-2025)
 
 - Time complexity = Space Complexity = O(N) for this solution.
+
+### Reversing words in a string (22-07-2025)
