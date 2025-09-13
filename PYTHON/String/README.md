@@ -12,6 +12,12 @@
 
 - Return `write` and not `len(chars)` since lists in python dont shrink, and write provides the new size of the compressed string.
 
+### Is Subsequence (13-09-2025)
+
+- A subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. 
+(i.e., `"ace" `is a subsequence of `"abcde"` while `"aec"` is not).
+- Again, don't make the mistake of assuming that a subsequence means the sequence needs to be concequtive letters in the original string. 🤦
+
 
 ## Other Problems
 

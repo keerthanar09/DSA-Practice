@@ -21,3 +21,6 @@ return False
 
 - This worked for the first three given test cases, but I quickly realized that `i < j < k` obviously didn't mean that i, j and k had to be concequtive numbers and the condition could be satisfied even if i, j and k are 2, 3 and 5 respectively 😝
 
+### Move Zeros (13-09-2025)
+
+- This solution uses the `two pointer method`, where one of the pointers, `i`, keeps track of the zeros in the array, and `j` traverses the array. The elements are swapped when `nums[i] = 0` and `nums[j] != 0`
