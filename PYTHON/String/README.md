@@ -18,6 +18,11 @@
 (i.e., `"ace" `is a subsequence of `"abcde"` while `"aec"` is not).
 - Again, don't make the mistake of assuming that a subsequence means the sequence needs to be concequtive letters in the original string. 🤦
 
+### Longest Palindrome Substring (14-09-25)
+
+- The method I used here is the brute-force method using two pointers to iteratively check the whole string for a palindrome substring. 
+- (Performance can be better using DP)
+
 
 ## Other Problems
 
