@@ -24,3 +24,15 @@ return False
 ### Move Zeros (13-09-2025)
 
 - This solution uses the `two pointer method`, where one of the pointers, `i`, keeps track of the zeros in the array, and `j` traverses the array. The elements are swapped when `nums[i] = 0` and `nums[j] != 0`
+
+### Container With Most Water (14-09-2025)
+
+- At first I used the brute force approach, but it wasn't accepted since it exceeded the time limit, so I took the better approach that uses the two pointer method since instead of iterating through every possible combination of i and j, the two pointer method only moves the pointers based on the `if height[i]<height[j]` statement.
+
+### Max Number of K-Sum Pairs (14-09-2025)
+
+- To avoid exceeding runtime limits, one key thing to always keep in mind is that questions can be decieving. Just because the problem mentions "removing pairs with k sum pairs till no such pairs exist", doesnt mean you need to physically remove the elements in the list, especially if the list itself doesn't have to be returned. 
+
+### Maximum Average Subarray I (15-09-2025)
+
+- Returning `max_sum*1.0/k` instead of `max_sum/k` was done to force float division, since without that, in leetcode, answer for the first test case came out as 12.000000 when it should've been 12.75 instead. 
